@@ -37,6 +37,13 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
+```java
+# Java code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
+
 #### [](#header-4)Header 4
 
 *   This is an unordered list following a header.
