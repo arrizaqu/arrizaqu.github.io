@@ -8,4 +8,5 @@
 ### Logic 6
 ### Logic 7
 ### Logic 8
+#### http://arrizaqu.github.io/logic1
 ### Logic 9
