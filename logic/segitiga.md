@@ -1,0 +1,102 @@
+# Logic Bintang Segita 
+* 	Kebutuhan
+*	Output yang diharapkan
+* 	Panjang Matrix sesuai input 
+* 	Formula Logika
+	* Segitiga Normal
+	* Segitiga Kebalik
+	* Segitiga kekanan
+	* Segitiga kekiri
+* Full Code 
+
+Disesuikan dengan judulnya, bahwa bagaimana membuat segitiga pada logic bintang dengan Matrix
+
+## Kebutuhan
+Mengerti konsep menggunakan Array Matrix [lihat disini](https://arrizaqu.github.io/logic/template).
+	
+## Output yang diharapkan
+```java
+ 	 	*	 	 
+ 	*	*	*	 
+*	*	*	*	*
+```
+## Panjang Matrix sesuai input
+Panjang pada baris dan kolom untuk setup matrix vertical dan horizontal (i dan j), untuk segitiga memiliki panjang yang berbeda, dan dapat disimpulkan, bahwa jumlah perbandingan antara i dan j adalah 
+```js
+jika pajang sisi panjang segita adalah sesuai n
+n / 2
+```
+
+dan
+```js
+jika pajang sisi panjang segita adalah 2x nilai n
+n * 2 - 1
+```
+
+```java
+contoh simple untuk baris dan kolom segitiga sesuai input diatas.
+this.baris = n;
+this.kolom = n* 2 - 1;
+```
+
+## Formula Logika
+### Segitiga Normal
+```java
+i + j >= n - 1 && j - i <= n - 1
+
+ 	 	*	 	 	
+ 	*	*	*	 	
+*	*	*	*	*
+```
+
+### Segitiga Kebalik
+	* Segitiga kekanan
+	* Segitiga kekiri
+
+
+### Full Code 
+```java
+public class Template {
+	
+	int baris = 0;
+	int kolom = 0;
+	String[][] data = null;
+	
+	public void setData(int n){
+		this.baris = n;
+		this.kolom = n* 2 - 1;
+		data = new String[this.baris][this.kolom];
+		for(int i  = 0; i < this.baris; i++){
+			// do logic 
+			for(int j = 0; j < this.kolom; j++){
+				if(i + j >= n - 1 && j - i <= n - 1 ){
+					data[i][j] = "*";
+				} else {
+					data[i][j] = " ";
+				}
+			}
+		}
+	}
+	
+	public void showData(){
+		for(int i  = 0; i < this.baris; i++){
+			for(int j = 0; j < this.kolom; j++){
+			System.out.print(this.data[i][j]+"\t");
+			}
+			System.out.println();
+		}
+	}
+	
+	public static void main(String[] args) throws Exception{
+		Template template = new Template();
+		InputStreamReader isr = new InputStreamReader(System.in);
+		BufferedReader br = new BufferedReader(isr);
+		System.out.print("masukkan angka >>> ");
+		int angka = Integer.parseInt(br.readLine());
+		template.setData(angka);
+		template.showData();
+	}
+}
+```
+
+> by Masyda Arrizaqu 
