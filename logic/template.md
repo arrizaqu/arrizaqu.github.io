@@ -1,7 +1,7 @@
 # Template logic Bintang  
 * 	Membuat Area Logika
 	*	angka input
-	*	output area
+	*	output area sesuai input
 
 *	Membuat Matrik menggunakan Array
 	*	Menentukan panjang baris
@@ -22,17 +22,18 @@ public static void main(String[] args) throws Exception{
 }
 ```
 
-## Pola
+## output area sesuai input
+Dari program main diatas, maka dalam output yang diinginkan adalah panjang dan lebar matrix seperti berikut 
 ``` 
-@	 	 	 	@	 	 	 	@
-	@	 	 	@	 	 	@	 
-		@	 	@	 	@	 	 
-			@	@	@	 	 	 
-@	@	@	@	@	@	@	@	@
-			@	@	@	 	 	 
-		@	 	@	 	@	 	 
-	@	 	 	@	 	 	@	 
-@	 	 	 	@	 	 	 	@
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0
 ```
 
 ## Step Pengerjaan
