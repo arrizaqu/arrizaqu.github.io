@@ -19,13 +19,11 @@
 ```java
 	int baris = 0;
 	int kolom = 0;
-end
 ```
 
 ### Menentukan panjang Array
 ```java
 	String[][] data = null;
-end
 ```
 
 ## Full Code 
