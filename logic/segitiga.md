@@ -57,7 +57,31 @@ j - i >=0 && i + j <= this.kolom - 1
  	*	*	*	 
  	 	*	 	 
 ```
-	* Segitiga kekanan
+
+### Segitiga kekanan
+Berbeda dengan segita normal dan kebalik untuk matrix segitiga ke kanan sumbu baris akan lebih besar dibanding sumbu kolom, maka ubah matrix menjadi 
+```js
+this.baris = n* 2 - 1;
+this.kolom = n;
+```
+
+formula
+```js
+i >= j && i + j <=this.baris - 1
+
+&	 	 	 	 
+&	&	 	 	 
+&	&	&	 	 
+&	&	&	&	 
+&	&	&	&	&
+&	&	&	&	 
+&	&	&	 	 
+&	&	 	 	 
+&
+```
+
+
+
 	* Segitiga kekiri
 
 
