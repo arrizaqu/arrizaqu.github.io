@@ -21,11 +21,13 @@
 	int baris = 0;
 	int kolom = 0;
 ```
+
 ### Menentukan panjang Array
 	demikian pula untuk panjang nilai pada array
 ```java
 	String[][] data = null;
 ```
+
 ## Full Code 
 ```java
 public class Template {
