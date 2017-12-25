@@ -9,7 +9,7 @@
 * Full Code 
 
 ## Kebutuhan
-Mengerti bagaimana konsep data Array pada template logic bintang.
+Mengerti konsep menggunakan Array Matrix ![Lihat disini](http://google.com).
 	
 ## Output yang diharapkan
 ```java
