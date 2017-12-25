@@ -109,13 +109,13 @@ public class Template {
 		data = new String[this.baris][this.kolom];
 		for(int i  = 0; i < this.baris; i++){
 			// do logic 
-			for(int j = 0; j < this.kolom; j++){
-				if(i + j >= n - 1 && i - j <= this.baris/2){
-					data[i][j] = "*";
-				} else {
-					data[i][j] = " ";
-				}
+		for(int j = 0; j < this.kolom; j++){
+			if(i + j >= n - 1 && i - j <= baris/2){
+				data[i][j] = "*";
+			} else {
+				data[i][j] = " ";
 			}
+		}
 		}
 	}
 	
