@@ -9,10 +9,12 @@
 Mengerti bagaimana konsep data Array pada template logic bintang.
 	
 ## Output yang diharapkan
+```java
 *	 	*	 	*
  	*	*	*	 
 *	*	*	*	*
  	*	*	*	 
 *	 	*	 	*
+```
 
 > by Masyda Arrizaqu 
