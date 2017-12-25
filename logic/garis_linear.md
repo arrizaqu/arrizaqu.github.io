@@ -9,7 +9,7 @@
 * Full Code 
 
 ## Kebutuhan
-Mengerti konsep menggunakan Array Matrix [lihat disini](https://www.google.com).
+Mengerti konsep menggunakan Array Matrix [lihat disini](https://arrizaqu.github.io/logic/template).
 	
 ## Output yang diharapkan
 ```java
