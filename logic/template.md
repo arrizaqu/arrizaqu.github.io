@@ -1,4 +1,31 @@
 # logic 
+> Untuk mengerjakan logic bintang seperti 
+```
+	@	 	 	 	@	 	 	 	@	
+		@	 	 	@	 	 	@	 	
+			@	 	@	 	@	 	 	
+				@	@	@	 	 	 	
+	@	@	@	@	@	@	@	@	@	
+				@	@	@	 	 	 	
+			@	 	@	 	@	 	 	
+		@	 	 	@	 	 	@	 	
+	@	 	 	 	@	 	 	 	@
+```
+## Step Pengerjaan
+* Menentukan panjang baris dan Kolom
+* Menentukan panjang Array
+
+### Menentukan panjang baris dan Kolom
+	Memberikan Default nilai untuk nilai baris dan kolom adalah 0
+```java
+	int baris = 0;
+	int kolom = 0;
+```
+### Menentukan panjang Array
+	demikian pula untuk panjang nilai pada array
+```java
+	String[][] data = null;
+```
 ## Full Code 
 ```java
 public class Template {
