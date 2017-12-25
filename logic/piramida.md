@@ -1,4 +1,4 @@
-# Logic Bintang Segita 
+# Logic Bintang Piramida 
 * 	Kebutuhan
 *	Output yang diharapkan
 * 	Panjang Matrix sesuai input 
