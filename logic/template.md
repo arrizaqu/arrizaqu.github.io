@@ -1,16 +1,16 @@
 # logic 
 
 ```java
-> Untuk mengerjakan logic bintang seperti 
-	@	 	 	 	@	 	 	 	@	
-		@	 	 	@	 	 	@	 	
-			@	 	@	 	@	 	 	
-				@	@	@	 	 	 	
-	@	@	@	@	@	@	@	@	@	
-				@	@	@	 	 	 	
-			@	 	@	 	@	 	 	
-		@	 	 	@	 	 	@	 	
-	@	 	 	 	@	 	 	 	@
+# Untuk mengerjakan logic bintang seperti 
+@	 	 	 	@	 	 	 	@	
+	@	 	 	@	 	 	@	 	
+		@	 	@	 	@	 	 	
+			@	@	@	 	 	 	
+@	@	@	@	@	@	@	@	@	
+			@	@	@	 	 	 	
+		@	 	@	 	@	 	 	
+	@	 	 	@	 	 	@	 	
+@	 	 	 	@	 	 	 	@
 ```
 
 ## Step Pengerjaan
