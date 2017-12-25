@@ -1,5 +1,13 @@
-# logic 
+# Membuat Template logic Bintang  
+* 	Mebuat Area Logika
+	*	angka input
+	*	output area
 
+*	Membuat Matrik menggunakan Array
+	*	Menentukan panjang baris
+	*	Menentukan panjang kolom
+	* 	Menentukan Panjang Array
+	
 ## Pola
 ``` 
 @	 	 	 	@	 	 	 	@
@@ -61,3 +69,5 @@ public class Template {
 	}
 }
 ```
+
+# Written by Masyda Arrizaqu 
