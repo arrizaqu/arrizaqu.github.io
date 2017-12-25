@@ -1,6 +1,7 @@
 # logic 
+
+```java
 > Untuk mengerjakan logic bintang seperti 
-```
 	@	 	 	 	@	 	 	 	@	
 		@	 	 	@	 	 	@	 	
 			@	 	@	 	@	 	 	
@@ -11,19 +12,20 @@
 		@	 	 	@	 	 	@	 	
 	@	 	 	 	@	 	 	 	@
 ```
+
 ## Step Pengerjaan
 * Menentukan panjang baris dan Kolom
 * Menentukan panjang Array
 
 ### Menentukan panjang baris dan Kolom
 ```java
-	int baris = 0;
-	int kolom = 0;
+int baris = 0;
+int kolom = 0;
 ```
 
 ### Menentukan panjang Array
 ```java
-	String[][] data = null;
+String[][] data = null;
 ```
 
 ## Full Code 
