@@ -9,7 +9,7 @@
 * Full Code 
 
 ## Kebutuhan
-Mengerti konsep menggunakan Array Matrix ![Lihat disini](http://google.com).
+Mengerti konsep menggunakan Array Matrix [lihat disini](https://www.google.com).
 	
 ## Output yang diharapkan
 ```java
