@@ -1,12 +1,7 @@
-# Logic
-
-### Logic 1
-### Logic 2
-### Logic 3
-### Logic 4
-### Logic 5
-### Logic 6
-### Logic 7
-### Logic 8
-#### http://arrizaqu.github.io/logic1
-### Logic 9
+# Index Content
+## 	Logic Bintang
+	1. [Logic Template](https://arrizaqu.github.io/logic/template)
+	2. [Garis Linear](https://arrizaqu.github.io/logic/garis_linear)
+	3. [Area Arsiran](https://arrizaqu.github.io/logic/area_arsiran)
+	4. [Segitga](https://arrizaqu.github.io/logic/segitiga)
+	5. [Piramida](https://arrizaqu.github.io/logic/piramida)
