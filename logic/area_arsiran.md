@@ -42,6 +42,7 @@ i >= j
 ### kebalikan arsiran 1 
 ```js
 i <= j
+
 *	*	*	*	*	*	*
  	*	*	*	*	*	*
  	 	*	*	*	*	*
@@ -54,6 +55,7 @@ i <= j
 ### arsiran 2 (naik ke kanan)
 ```js
 i + j >= n - 1
+
 	 	 	 	 	 	*
  	 	 	 	 	*	*
  	 	 	 	*	*	*
@@ -68,6 +70,7 @@ i + j >= n - 1
 ### garis diagonal 1 (naik ke kiri)
 ```js
 i + j <= n - 1
+
 *	*	*	*	*	*	*
 *	*	*	*	*	*	 
 *	*	*	*	*	 	 
@@ -77,25 +80,10 @@ i + j <= n - 1
 *
 ```
 
-### garis diagonal 2 (naik ke kanan)
-```js
-	i + j == n - 1
-```
-
-### garis tengah (horizontal)
-```js
-	i == n / 2
-```
-
-### garis tengah (vertical)
-```js
-	j == n / 2
-```
-
 ### Full Code 
 ```java
 public class Template {
-	//written by masyda arrizaqu	
+	// written by masyda arrizaqu
 	int baris = 0;
 	int kolom = 0;
 	String[][] data = null;
@@ -107,18 +95,9 @@ public class Template {
 		for(int i  = 0; i < this.baris; i++){
 			// do logic 
 			for(int j = 0; j < this.kolom; j++){
-				if(i == j){
+				if(i + j <= n - 1){
 					data[i][j] = "*";
-				} else if(i + j == n - 1){
-					data[i][j] = "*";
-				} else if(i == n / 2){
-					data[i][j] = "*";
-				} else if(j == n / 2){
-					data[i][j] = "*";
-				} else {
-					data[i][j] = " ";
-				}
-				
+				} 
 			}
 		}
 	}
@@ -134,8 +113,7 @@ public class Template {
 	
 	public static void main(String[] args) throws Exception{
 		Template template = new Template();
-		InputStreamReader isr = 
-			new InputStreamReader(System.in);
+		InputStreamReader isr = new InputStreamReader(System.in);
 		BufferedReader br = new BufferedReader(isr);
 		System.out.print("masukkan angka >>> ");
 		int angka = Integer.parseInt(br.readLine());
