@@ -53,7 +53,7 @@ String[][] data = null;
 ```
 
 ### Isi Data Array 
-Dalam isi Data Array berbentuk matrix dimana pada dilakukan pengisian data Array (Matrix : i sebagai baris, dan x sebagai kolom), i pada looping dibawah ini adalah berperan untuk looping pada baris (vertical) dan j untuk mengerjakan panjang sisi kolom (Horizontal)
+Dalam isi Data Array berbentuk matrix dimana pengisian data Array (Matrix : i sebagai baris, dan x sebagai kolom), i pada looping dibawah ini adalah berperan untuk looping pada baris (vertical) dan j untuk mengerjakan panjang sisi kolom (Horizontal)
 ```java
 public void setData(int n){
 	this.baris = n;
