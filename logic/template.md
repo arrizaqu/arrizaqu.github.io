@@ -1,5 +1,5 @@
-# Membuat Template logic Bintang  
-* 	Mebuat Area Logika
+# Template logic Bintang  
+* 	Membuat Area Logika
 	*	angka input
 	*	output area
 
@@ -7,7 +7,21 @@
 	*	Menentukan panjang baris
 	*	Menentukan panjang kolom
 	* 	Menentukan Panjang Array
-	
+
+## angka input dan program main 
+	seperti hal nya yang lain untuk memberikan inputan angka sebaiknya dilakukan ketika pada saat pembuatan program main seperti berikut ini
+```java
+public static void main(String[] args) throws Exception{
+	Template template = new Template();
+	InputStreamReader isr = new InputStreamReader(System.in);
+	BufferedReader br = new BufferedReader(isr);
+	System.out.print("masukkan angka >>> ");
+	int angka = Integer.parseInt(br.readLine());
+	template.setData(angka);
+	template.showData();
+}
+```
+
 ## Pola
 ``` 
 @	 	 	 	@	 	 	 	@
