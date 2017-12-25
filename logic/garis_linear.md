@@ -81,9 +81,11 @@ public class Template {
 		}
 	}
 	
-	public static void main(String[] args) throws Exception{
+	public static void main(String[] args) 
+								throws Exception{
 		Template template = new Template();
-		InputStreamReader isr = new InputStreamReader(System.in);
+		InputStreamReader isr = 
+			new InputStreamReader(System.in);
 		BufferedReader br = new BufferedReader(isr);
 		System.out.print("masukkan angka >>> ");
 		int angka = Integer.parseInt(br.readLine());
