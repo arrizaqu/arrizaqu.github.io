@@ -80,10 +80,20 @@ i >= j && i + j <=this.baris - 1
 *
 ```
 
+### Segitiga kekiri
+```java
+i + j >= n - 1 && i - j <= this.baris/2
 
-
-	* Segitiga kekiri
-
+ 	 	 	 	*
+ 	 	 	*	*
+ 	 	*	*	*
+ 	*	*	*	*
+*	*	*	*	*
+ 	*	*	*	*
+ 	 	*	*	*
+ 	 	 	*	*
+ 	 	 	 	*
+```
 
 ### Full Code 
 ```java
