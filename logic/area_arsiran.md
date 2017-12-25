@@ -2,10 +2,10 @@
 * 	Kebutuhan
 *	output yang diharapkan 
 * 	Formula Logika
-	* garis diagonal 1 (naik ke kiri)
-	* garis diagonal 2 (naik ke kanan)
-	* garis tengah (horizontal)
-	* garis tengah (vertical)
+	* arsiran 1 (naik ke kiri)
+	* kebalikan arsiran 1 
+	* arsiran 2 (naik ke kanan)
+	* kebalikan arsiran 
 * Full Code 
 
 Disesuikan dengan judulnya, bahwa bagaimana membuat area arsiran pada logik bintang.
@@ -25,6 +25,24 @@ Mengerti konsep menggunakan Array Matrix [lihat disini](https://arrizaqu.github.
 ```
 
 ## Formula Logika
+### arsiran 1 (naik ke kiri)
+
+```js
+i >= j
+
+*	 	 	 	 	 	 
+*	*	 	 	 	 	 
+*	*	*	 	 	 	 
+*	*	*	*	 	 	 
+*	*	*	*	*	 	 
+*	*	*	*	*	*	 
+*	*	*	*	*	*	*
+```
+
+### kebalikan arsiran 1 
+### arsiran 2 (naik ke kanan)
+### kebalikan arsiran 
+	
 ### garis diagonal 1 (naik ke kiri)
 ```js
 	i == j
