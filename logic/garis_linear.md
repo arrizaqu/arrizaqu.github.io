@@ -81,8 +81,7 @@ public class Template {
 		}
 	}
 	
-	public static void main(String[] args) 
-								throws Exception{
+	public static void main(String[] args) throws Exception{
 		Template template = new Template();
 		InputStreamReader isr = 
 			new InputStreamReader(System.in);
