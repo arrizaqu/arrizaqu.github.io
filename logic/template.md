@@ -1,7 +1,7 @@
 # logic 
 
-```java
-# Untuk mengerjakan logic bintang seperti 
+## Pola
+``` 
 @	 	 	 	@	 	 	 	@	
 	@	 	 	@	 	 	@	 	
 		@	 	@	 	@	 	 	
