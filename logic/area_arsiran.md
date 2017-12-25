@@ -66,8 +66,6 @@ i + j >= n - 1
 ```
 
 ### kebalikan arsiran 2
-	
-### garis diagonal 1 (naik ke kiri)
 ```js
 i + j <= n - 1
 
