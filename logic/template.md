@@ -23,16 +23,16 @@ public static void main(String[] args) throws Exception{
 ```
 
 ## output area sesuai input
-Dari program main diatas, maka dalam output yang diinginkan adalah panjang dan lebar matrix seperti berikut 
+Dari program main diatas, maka dalam output yang diinginkan adalah panjang dan lebar matrix disesuaikan dengan jumlah angka input dari program main seperti berikut 
 ``` 
-0	0	0	0	0	0	0	0	0	
-0	0	0	0	0	0	0	0	0	
-0	0	0	0	0	0	0	0	0	
-0	0	0	0	0	0	0	0	0	
-0	0	0	0	0	0	0	0	0	
-0	0	0	0	0	0	0	0	0	
-0	0	0	0	0	0	0	0	0	
-0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0
 0	0	0	0	0	0	0	0	0
 ```
 
