@@ -9,7 +9,7 @@
 	* 	Menentukan Panjang Array
 
 ## angka input dan program main 
-	Seperti pada kebayakan pembuatan program, dalam input awal dilakukan pada program main
+Seperti pada kebayakan pembuatan program, dalam input awal dilakukan pada program main
 
 ```java
 public static void main(String[] args) throws Exception{
