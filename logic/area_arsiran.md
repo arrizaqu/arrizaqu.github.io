@@ -5,7 +5,7 @@
 	* arsiran 1 (naik ke kiri)
 	* kebalikan arsiran 1 
 	* arsiran 2 (naik ke kanan)
-	* kebalikan arsiran 
+	* kebalikan arsiran 2
 * Full Code 
 
 Disesuikan dengan judulnya, bahwa bagaimana membuat area arsiran pada logik bintang.
@@ -40,12 +40,41 @@ i >= j
 ```
 
 ### kebalikan arsiran 1 
+```js
+i <= j
+*	*	*	*	*	*	*
+ 	*	*	*	*	*	*
+ 	 	*	*	*	*	*
+ 	 	 	*	*	*	*
+ 	 	 	 	*	*	*
+ 	 	 	 	 	*	*
+ 	 	 	 	 	 	*
+```
+
 ### arsiran 2 (naik ke kanan)
-### kebalikan arsiran 
+```js
+i + j >= n - 1
+	 	 	 	 	 	*
+ 	 	 	 	 	*	*
+ 	 	 	 	*	*	*
+ 	 	 	*	*	*	*
+ 	 	*	*	*	*	*
+ 	*	*	*	*	*	*
+*	*	*	*	*	*	*
+```
+
+### kebalikan arsiran 2
 	
 ### garis diagonal 1 (naik ke kiri)
 ```js
-	i == j
+i + j <= n - 1
+*	*	*	*	*	*	*
+*	*	*	*	*	*	 
+*	*	*	*	*	 	 
+*	*	*	*	 	 	 
+*	*	*	 	 	 	 
+*	*	 	 	 	 	 
+*
 ```
 
 ### garis diagonal 2 (naik ke kanan)
