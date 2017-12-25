@@ -9,7 +9,6 @@
 	* 	Menentukan Panjang Array
 
 ## angka input dan program main 
-	seperti hal nya yang lain untuk memberikan inputan angka sebaiknya dilakukan ketika pada saat pembuatan program main seperti berikut ini
 ```java
 public static void main(String[] args) throws Exception{
 	Template template = new Template();
