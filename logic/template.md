@@ -116,4 +116,4 @@ public class Template {
 }
 ```
 
-> Written by Masyda Arrizaqu 
+> by Masyda Arrizaqu 
