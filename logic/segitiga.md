@@ -50,6 +50,13 @@ i + j >= n - 1 && j - i <= n - 1
 ```
 
 ### Segitiga Kebalik
+```java
+j - i >=0 && i + j <= this.kolom - 1
+
+*	*	*	*	*
+ 	*	*	*	 
+ 	 	*	 	 
+```
 	* Segitiga kekanan
 	* Segitiga kekiri
 
