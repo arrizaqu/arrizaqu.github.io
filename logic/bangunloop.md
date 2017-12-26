@@ -70,8 +70,49 @@ for(int i  = 0; i < this.baris; i++){
 ```
 
 ### for(i, j) 2
+```java
+int addBlock = 0;
+for(int block = 0; block < n; block++){
+	int addBangun = 0;
+	for(int bangun = 0; bangun < n; bangun++){
+		//kode untuk for 1 logic bangun dasar.
+	}
+}
+```
+
 ### copy pola
+```java
+if(bangun  == block){
+	data[i+ addBlock][j + addBangun] = "#";
+} else if(bangun + block == n - 1){
+	data[i+ addBlock][j + addBangun] = "#";
+}
+```
+
 ### Logic lengkap
+```java
+int addBlock = 0;
+for(int block = 0; block < n; block++){
+	int addBangun = 0;
+	for(int bangun = 0; bangun < n; bangun++){
+		for(int i  = 0; i < this.baris; i++){
+			for(int j = 0; j < this.kolom; j++){
+				boolean a = j + i >= n/2 && j -i <= n/2 && i -j <= n/2;
+				boolean b = i + j <= (n/2) + (n - 1);
+				if(a && b){
+					if(bangun  == block){
+						data[i+ addBlock][j + addBangun] = "#";
+					} else if(bangun + block == n - 1){
+						data[i+ addBlock][j + addBangun] = "#";
+					}
+				}	
+			}
+		}
+		addBangun = addBangun + n;
+	}
+	addBlock = addBlock + n;
+}
+```
 
 ### Full Code 
 ```java
