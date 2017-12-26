@@ -35,3 +35,16 @@
 	*	*	*		 
 		*		
 ```
+
+6. [Segitiga Bertemu](https://arrizaqu.github.io/logic/segitigaempat)
+```js
+*	*	*	*	*	*	*	*	*	
+ 	*	*	*	*	*	*	*	 	
+ 	 	*	*	*	*	*	 	 	
+ 	 	 	*	*	*	 	 	 	
+ 	 	 	 	*	 	 	 	 	
+ 	 	 	*	*	*	 	 	 	
+ 	 	*	*	*	*	*	 	 	
+ 	*	*	*	*	*	*	*	 	
+*	*	*	*	*	*	*	*	*
+```
