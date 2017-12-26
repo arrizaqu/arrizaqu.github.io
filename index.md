@@ -29,9 +29,9 @@
 
 5. [Piramida](https://arrizaqu.github.io/logic/piramida)
 ```js
-		*	 	 
- 	*	*	*	 
-*	*	*	*	*
- 	*	*	*	 
- 	 	*
+			*	 	 
+		*	*	*	 
+	*	*	*	*	*
+		*	*	*	 
+			*
 ```
