@@ -9,14 +9,14 @@
 	* Segitiga kekiri
 * Full Code 
 
-Mengapa bangun loop, karena pada pembahasan ini, adalah level setelah sudah terbangun sebuah pola kemudian dari pola tersebut adalah membentuk pola yang lebih besar kembali, pada pembahasan sebelumnya dapat digambarkan adalah membuat bangun dari Array Matrix sebagai contoh adalah membuat peramida dengan input : 2,
+Mengapa bangun loop, karena pada pembahasan ini, adalah level setelah terbangun sebuah pola kemudian dari pola tersebut akan membentuk pola yang lebih besar, dicontohkan membuat bangun dari Array Matrix peramida dengan input : 2,
 ```js
 	*		
 *	*	*	
 	*	
 ```
 
-dengan pembahasan ini maka dari segitiga akan di loop yang ke bentuk yang lebih besar.
+dari bentuk piramid diatas akan di loop kepada ke bentuk yang lebih besar, seperti berikut 
 ```js
 	*						*	
 *	*	*				*	*	*
