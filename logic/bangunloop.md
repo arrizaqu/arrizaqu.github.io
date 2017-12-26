@@ -76,7 +76,9 @@ for(int block = 0; block < n; block++){
 	int addBangun = 0;
 	for(int bangun = 0; bangun < n; bangun++){
 		//kode untuk for 1 logic bangun dasar.
+		addBangun = addBangun + n;
 	}
+	addBlock = addBlock + n;
 }
 ```
 
