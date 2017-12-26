@@ -57,6 +57,7 @@ this.kolom = n*n;
 
 ## Formula Logika
 ### for(i, j) 1
+```java
 for(int i  = 0; i < this.baris; i++){
 	for(int j = 0; j < this.kolom; j++){
 	boolean a = j + i >= n/2 && j -i <= n/2;
@@ -66,6 +67,7 @@ for(int i  = 0; i < this.baris; i++){
 		}
 	}
 }
+```
 
 ### for(i, j) 2
 ### copy pola
