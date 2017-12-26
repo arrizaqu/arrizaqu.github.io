@@ -11,22 +11,22 @@
 
 Mengapa bangun loop, karena pada pembahasan ini, adalah level setelah sudah terbangun sebuah pola kemudian dari pola tersebut adalah membentuk pola yang lebih besar kembali, pada pembahasan sebelumnya dapat digambarkan adalah membuat bangun dari Array Matrix sebagai contoh adalah membuat peramida dengan input : 2,
 ```js
-	#		
-#	#	#	
-	#	
+	*		
+*	*	*	
+	*	
 ```
 
 dengan pembahasan ini maka dari segitiga akan di loop yang ke bentuk yang lebih besar.
 ```js
-	#						#	
-#	#	#				#	#	#
-	#						#	
-				#				
-			#	#	#			
-				#				
-	#						#	
-#	#	#				#	#	#
-	#						#	
+	*						*	
+*	*	*				*	*	*
+	*						*	
+				*				
+			*	*	*			
+				*				
+	*						*	
+*	*	*				*	*	*
+	*						*	
 
 ```
 
@@ -35,9 +35,17 @@ Mengerti konsep menggunakan Array Matrix [lihat disini](https://arrizaqu.github.
 	
 ## Output yang diharapkan
 ```java
- 	 	*	 	 
- 	*	*	*	 
-*	*	*	*	*
+Jika inputan adalah 2 maka akan terbentuk : 
+
+	*						*	
+*	*	*				*	*	*
+	*						*	
+				*				
+			*	*	*			
+				*				
+	*						*	
+*	*	*				*	*	*
+	*						*	
 ```
 ## Panjang Matrix sesuai input
 Panjang pada baris dan kolom untuk setup matrix vertical dan horizontal (i dan j), untuk segitiga memiliki panjang yang berbeda, dan dapat disimpulkan, bahwa jumlah perbandingan antara i dan j adalah 
