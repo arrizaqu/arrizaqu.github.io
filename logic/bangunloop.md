@@ -3,10 +3,11 @@
 *	Output yang diharapkan
 * 	Panjang Matrix sesuai input 
 * 	Formula Logika
-	* Segitiga Normal
-	* Segitiga Kebalik
-	* Segitiga kekanan
-	* Segitiga kekiri
+	* 	for(i, j) 1
+	* 	for(i, j) 2
+	* 	copy pola
+	* 	Logic lengkap
+	
 * Full Code 
 
 Mengapa bangun loop, karena pada pembahasan ini, adalah level setelah terbangun sebuah pola kemudian dari pola tersebut akan membentuk pola yang lebih besar, dicontohkan membuat bangun dari Array Matrix peramida dengan input : 2,
@@ -48,79 +49,27 @@ Jika inputan adalah 2 maka akan terbentuk :
 	*						*	
 ```
 ## Panjang Matrix sesuai input
-Panjang pada baris dan kolom untuk setup matrix vertical dan horizontal (i dan j), untuk segitiga memiliki panjang yang berbeda, dan dapat disimpulkan, bahwa jumlah perbandingan antara i dan j adalah 
+untuk sifat bangun yang sama dengan panjang baris dan panjang kolom (i == j) seperti kotak, piramid, maka panjang matrix akan secara mudah dipahami dengan:
 ```js
-jika pajang sisi panjang segita adalah sesuai n
-n / 2
-```
-
-dan
-```js
-jika pajang sisi panjang segita adalah 2x nilai n
-n * 2 - 1
-```
-
-```java
-contoh simple untuk baris dan kolom segitiga sesuai input diatas.
-this.baris = n;
-this.kolom = n* 2 - 1;
+this.baris = n*n;
+this.kolom = n*n;
 ```
 
 ## Formula Logika
-### Segitiga Normal
-```java
-i + j >= n - 1 && j - i <= n - 1
+### for(i, j) 1
+for(int i  = 0; i < this.baris; i++){
+	for(int j = 0; j < this.kolom; j++){
+	boolean a = j + i >= n/2 && j -i <= n/2;
+	boolean b = i -j <= n/2 && i + j <= (n/2) + (n - 1);
+		if( a && b){
+		//pola dasar
+		}
+	}
+}
 
- 	 	*	 	 	
- 	*	*	*	 	
-*	*	*	*	*
-```
-
-### Segitiga Kebalik
-```java
-j - i >=0 && i + j <= this.kolom - 1
-
-*	*	*	*	*
- 	*	*	*	 
- 	 	*	 	 
-```
-
-### Segitiga kekanan
-Berbeda dengan segita normal dan kebalik untuk matrix segitiga ke kanan sumbu baris akan lebih besar dibanding sumbu kolom, maka ubah matrix menjadi 
-```js
-this.baris = n* 2 - 1;
-this.kolom = n;
-```
-
-formula
-```js
-i >= j && i + j <=this.baris - 1
-
-*	 	 	 	 
-*	*	 	 	 
-*	*	*	 	 
-*	*	*	*	 
-*	*	*	*	*
-*	*	*	*	 
-*	*	*	 	 
-*	*	 	 	 
-*
-```
-
-### Segitiga kekiri
-```java
-i + j >= n - 1 && i - j <= this.baris/2
-
- 	 	 	 	*
- 	 	 	*	*
- 	 	*	*	*
- 	*	*	*	*
-*	*	*	*	*
- 	*	*	*	*
- 	 	*	*	*
- 	 	 	*	*
- 	 	 	 	*
-```
+### for(i, j) 2
+### copy pola
+### Logic lengkap
 
 ### Full Code 
 ```java
@@ -131,40 +80,53 @@ public class Template {
 	String[][] data = null;
 	
 	public void setData(int n){
-		this.baris = n* 2 - 1;
-		this.kolom = n;
+		this.baris = n*n;
+		this.kolom = n*n;
 		data = new String[this.baris][this.kolom];
-		for(int i  = 0; i < this.baris; i++){
-			// do logic 
-		for(int j = 0; j < this.kolom; j++){
-			if(i + j >= n - 1 && i - j <= baris/2){
-				data[i][j] = "*";
-			} else {
-				data[i][j] = " ";
+		int addBlock = 0;
+		for(int block = 0; block < n; block++){
+			int addBangun = 0;
+			for(int bangun = 0; bangun < n; bangun++){
+				for(int i  = 0; i < this.baris; i++){
+					for(int j = 0; j < this.kolom; j++){
+						if(j + i >= n/2 && j -i <= n/2 && i -j <= n/2 && i + j <= (n/2) + (n - 1)){
+							if(bangun  == block){
+								data[i+ addBlock][j + addBangun] = "#";
+							} else if(bangun + block == n - 1){
+								data[i+ addBlock][j + addBangun] = "#";
+							}
+							
+						}	
+					}
+				}
+				addBangun = addBangun + n;
 			}
+			addBlock = addBlock + n;
 		}
-		}
+		
+		
 	}
 	
 	public void showData(){
 		for(int i  = 0; i < this.baris; i++){
 			for(int j = 0; j < this.kolom; j++){
-			System.out.print(this.data[i][j]+"\t");
+				if(data[i][j] != null){
+					System.out.print(this.data[i][j]+"\t");
+				}
+				else {
+					System.out.print("\t");
+				}
 			}
 			System.out.println();
 		}
 	}
 	
-	public static void main(String[] args) throws Exception{
+	public static void main(String[] args){
 		Template template = new Template();
-		InputStreamReader isr = 
-		new InputStreamReader(System.in);
-		BufferedReader br = new BufferedReader(isr);
-		System.out.print("masukkan angka >>> ");
-		int angka = Integer.parseInt(br.readLine());
-		template.setData(angka);
+		template.setData(3);
 		template.showData();
 	}
+
 }
 
 ```
