@@ -28,11 +28,10 @@
 ```
 
 5. [Piramida](https://arrizaqu.github.io/logic/piramida)
-
-```java
-		*	 	 
-	*	*	*	 
+```js
+		*			 	 
+	*	*	*		 
 *	*	*	*	*
-	*	*	*	 
-		*
+	*	*	*		 
+		*		
 ```
