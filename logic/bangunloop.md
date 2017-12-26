@@ -134,22 +134,22 @@ public class Template {
 			for(int bangun = 0; bangun < n; bangun++){
 				for(int i  = 0; i < this.baris; i++){
 					for(int j = 0; j < this.kolom; j++){
-						if(j + i >= n/2 && j -i <= n/2 && i -j <= n/2 && i + j <= (n/2) + (n - 1)){
-							if(bangun  == block){
-								data[i+ addBlock][j + addBangun] = "*";
-							} else if(bangun + block == n - 1){
-								data[i+ addBlock][j + addBangun] = "*";
-							}
-							
-						}	
+		boolean a = j + i >= n/2 && j -i <= n/2 && i -j <= n/2;
+		boolean b = i + j <= (n/2) + (n - 1);
+		if( a && b ){
+			if(bangun  == block){
+				data[i+ addBlock][j + addBangun] = "*";
+			} else if(bangun + block == n - 1){
+				data[i+ addBlock][j + addBangun] = "*";
+			}
+			
+		}	
 					}
 				}
 				addBangun = addBangun + n;
 			}
 			addBlock = addBlock + n;
 		}
-		
-		
 	}
 	
 	public void showData(){
@@ -171,9 +171,7 @@ public class Template {
 		template.setData(3);
 		template.showData();
 	}
-
 }
-
 ```
 
 > by Masyda Arrizaqu 
