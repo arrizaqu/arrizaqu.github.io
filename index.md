@@ -10,3 +10,4 @@
 8. [Piramida](https://arrizaqu.github.io/logic/piramida)
 9. [gitiga Bertemu](https://arrizaqu.github.io/logic/segitigaempat)
 10. [Bangun berulang](https://arrizaqu.github.io/logic/bangunloop)
+
