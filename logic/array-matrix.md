@@ -39,13 +39,13 @@ data2[1][1] = "1.1";
 ```
 
 ## Matrix
-Demikian pentingnya sebuah matrix dalam perkembangan system, sangat diperkukan, terutama untuk data kumpulan data.
-Pada Matrix yang akan dibuat kali ini adalah sebuah matrix yang akan digunakan untuk kepentingan logic bintang, oleh karena pembuatan matrix menjadi hal  yang paling penting untuk diketahui sebelum mengerjakan pola logic bintang.
+Demikian pentingnya sebuah matrix dalam perkembangan system sangat diperkukan, terutama untuk kebutuhan kumpulan data seperti table.
 
 untuk membuat matrix akan sangat membutuhkan : 
 1. panjang baris 
 2. panjang kolom
-sehingga dengan bantuan looping secara singkat dapat dilihat pada code berkut : 
+
+secara singkat dapat dilihat pada code berkut : 
 
 ```java
 int baris = 9;
