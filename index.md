@@ -3,7 +3,7 @@
 1. [Subroutin and Function](https://arrizaqu.github.io/logic/routine-function)
 2. [Condition](http://google.co.id)
 3. [looping](http://google.co.id)
-4. [Matrix dengan Array](https://google.co.id)
+4. [Array dan Matrix](https://arrizaqu.github.io/logic/array-matrix)
 4. [Logic Template](https://arrizaqu.github.io/logic/template)
 5. [Garis Linear](https://arrizaqu.github.io/logic/garis_linear)
 6. [Area Arsiran](https://arrizaqu.github.io/logic/area_arsiran)
