@@ -68,7 +68,9 @@ for(int i = 0; i < this.baris; i++){
 		System.out.println(data[i][j] + "");
 	}
 }
-
-atau 
+```
+Atau, dengan fungsi Arrays.toString seperti berikut :
+ 
+```java
 System.out.println(Arrays.toString(data));
 ```
