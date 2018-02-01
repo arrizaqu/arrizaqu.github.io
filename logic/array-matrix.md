@@ -58,3 +58,17 @@ for(int i = 0; i < this.baris; i++){
 	}
 }
 ```
+
+## Menampilkan data
+Berikut ini adalah contoh untuk menampilkan data Matrix seperti code diatas.
+
+```java
+for(int i = 0; i < this.baris; i++){
+	for(int j = 0; j < this.kolom; j++){
+		System.out.println(data[i][j] + "");
+	}
+}
+
+atau 
+System.out.println(Arrays.toString(data));
+```
