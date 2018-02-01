@@ -48,7 +48,7 @@ untuk membuat matrix akan sangat membutuhkan :
 secara singkat dapat dilihat pada code berkut : 
 
 ```java
-int baris = 9;
+int baris = 9; 
 int kolom = 9;
 String[] data = new String[this.baris][this.kolom];
 
