@@ -141,8 +141,7 @@ public class Template {
 				data[i+ addBlock][j + addBangun] = "*";
 			} else if(bangun + block == n - 1){
 				data[i+ addBlock][j + addBangun] = "*";
-			}
-			
+			}			
 		}	
 					}
 				}
