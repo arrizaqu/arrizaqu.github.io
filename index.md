@@ -8,5 +8,5 @@
 6. [Area Arsiran](https://arrizaqu.github.io/logic/area_arsiran)
 7. [Segitga](https://arrizaqu.github.io/logic/segitiga)
 8. [Piramida](https://arrizaqu.github.io/logic/piramida)
-9. [gitiga Bertemu](https://arrizaqu.github.io/logic/segitigaempat)
+9. [Segitiga Bertemu](https://arrizaqu.github.io/logic/segitigaempat)
 10. [Bangun berulang](https://arrizaqu.github.io/logic/bangunloop)
