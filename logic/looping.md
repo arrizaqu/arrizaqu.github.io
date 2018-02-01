@@ -1,35 +1,75 @@
 # Looping
 * Definition 
-* Next Level
+* Loop level 1
+* Loop level 2
+* Loop level 3
 
 ## Definition 
 Secara singkat Looping merupakan pengulangan sesuatu atau serangkaian "kerja" dari program.
-Misalkan sebuah tanda "*" maka : 
+
+## Loop level 1
+Misalkan sebuah tanda "*" akan di loop sebanyak 5x seperti code dibawah: 
 ```java
 for(int i = 0; i < 5; i++){
 	System.out.print("*");
 }	
 ```
-output : 
+maka output yang dihasilkan adalah : 
 ```js
 *****
 ```
 
-## Next Level
-Yup, next level, maksudnya adalah apa yang terjadi jika hasil loop berupa output : 
+## Loop level 2
+Yup, next level 2, maksudnya adalah apa yang terjadi jika hasil pada "Loop level 1" seperti : 
 ```js
 *****
 ```
-akan di loop lagi sebanyak n, hingga memiliki : 
+akan di loop lagi sebanyak 3x, hingga memiliki : 
 ```js
-***** ***** ***** ..(nx)
+***** ***** *****
 ```
 
-### example : 
+maka code nya adalah : 
 ```java
-for(int a = 0; a < n; a++){
-	for(int i = 0; i < 5; i++){
+for(int i = 0; i < 3; i++){
+	for(int j = 0; j < 5; j++){
 		System.out.print("*");
 	}
 }
 ```
+
+### Loop Level 3 
+Apa yang terjadi jika level di naikknya 1 lagi, maka akan terbentuk 3 for loop, dan misalkan hasil sebelumnya di loop 2x lagi, maka output : 
+```js
+***** ***** ***** ***** ***** *****
+```
+maka code nya adalah sebagai berikut : 
+```java
+for(int bangun = 0; bangun < 2; bangun++){
+	for(int i = 0; i < 3; i++){
+		for(int j = 0; j < 5; j++){
+			System.out.print("*");
+		}
+	}
+}
+```
+
+dan seterusnya.., 
+
+### Basic Logic
+loop seperti ini adalah bagian basic untuk mengerjakan logic bintang dengan menggunakan Loop., 
+```java
+for(int i = 0; i < 3; i++){
+	for(int j = 0; j < 5; j++){
+		System.out.print("*");
+	}
+	System.out.println("\t");
+} 
+```
+output: 
+```js
+* * * * * 
+* * * * * 
+* * * * *
+```
+
