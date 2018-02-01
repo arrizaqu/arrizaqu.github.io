@@ -1,6 +1,6 @@
 # Index Content
 ## 	Logic Bintang
-1. [Subroutin and Function](http://google.co.id)
+1. [Subroutin and Function](https://arrizaqu.github.io/logic/template)
 2. [Condition](http://google.co.id)
 3. [looping](http://google.co.id)
 4. [Matrix dengan Array](https://google.co.id)
