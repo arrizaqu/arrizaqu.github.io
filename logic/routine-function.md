@@ -9,7 +9,7 @@ public void setName(String myname){
 ```
 
 ## Function
-Function mungkin saja menurut beberapa sumber memiliki pendefinisian yang sama dengan Subroutine atau procedure, hanya saja pada asalnya sebuah function akan memiliki "nilai balik (return value)" ketika sebuah function tersebut dibalik
+Function mungkin saja menurut beberapa sumber memiliki pendefinisian yang sama dengan Subroutine atau procedure, hanya saja pada asalnya sebuah function akan memiliki "nilai balik (return value)", seperti code berikut : 
 
 ```java
 public int getPenjumlahan(int a, int b){
