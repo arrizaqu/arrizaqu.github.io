@@ -45,7 +45,6 @@ seperti yang sudah dicontohkan pada class EMPLOYEE diatas.
 	String name = new String("masyda arrizaqu");
 	//bisa di shortcut menjadi
 	String address = "seputih banyak";
-	
 ```
 
  
