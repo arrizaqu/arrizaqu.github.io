@@ -78,10 +78,13 @@ System.out.println(Arrays.toString(data));
 ```
 
 # Tugas
-1. Buatlah Function dengan Return array (String[]) nama - nama hari.
-2. Buatlah Function dengan Return array (String[]) nama - nama bulan.
-3. Buatlah Function dengan Return array (int[]) bilangan Fibonachi untuk jumlah data sebanyak n. (contoh, contoh : 5, output : 1,2,)
-3. Buatlah Function dengan Return array (int[]) bilangan Fibonachi untuk jumlah data sebanyak n dan terbalik, (contoh : input = 5 => 1, 2, 3, 2, 1).
-4. Buatlah Function dengan Return array (int[]) bilangan Tribonachi untuk jumlah data sebanyak n.
-5. Buatlah Function dengan Return array (int[]) bilangan Triangular untuk jumlah data sebanyak n.
-6. Buatlah Function dengan Return array (int[]) bilangan 
+1. Buatlah Function dengan Return array (String[]) nama - nama hari. (ex: n = 5, result : ["ahad", "senin", dst])
+2. Buatlah Function dengan Return array (String[]) nama - nama bulan. (ex: n = 5, result : ["january", "february", dst])
+3. Buatlah Function bilangan increment dengan Return array (int[]) (ex: n = 5, result : [0,1,2,3,4])
+4. Buatlah Function bilangan ganjil dengan return array (int[])(ex: n = 5, result : [1,3,5,7,9])
+5. Buatlah Function dengan Return array (int[]) bilangan Fibonachi untuk jumlah data sebanyak n. (ex: n = 5, output : 1,1,2,3,5).
+6. Buatlah Function dengan Return array (int[]) bilangan Fibonachi untuk jumlah data sebanyak n dan angka terbalik, (contoh : input = 5 => 1, 1, 2, 1, 1).
+7. Buatlah Function dengan Return array (int[]) bilangan Tribonachi untuk jumlah data sebanyak n. (ex: n = 5, result : [1,1,1,3,5])
+8. Buatlah Function dengan Return array (int[]) bilangan Tribonachi untuk jumlah data sebanyak n dan angka terbalik. (ex: n = 7, result : [1,1,1,3,1,1,1])
+9. Buatlah Function dengan Return array (int[]) bilangan Triangular untuk jumlah data sebanyak n. (ex: n = 5, result : [1,3,6,10,15])
+10. Buatlah Function dengan Return array (int[]) bilangan Triangular untuk jumlah data sebanyak n dan angka terbalik (ex: n = 5, result : [1,3,6,3,1])
