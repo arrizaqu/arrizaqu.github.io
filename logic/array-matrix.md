@@ -1,6 +1,8 @@
 # Array dan Matrix
-	* Array 
-	* Matrix
+* Array 
+* Matrix
+* Menampilkan Data
+* Tugas
 	
 ## Array 
 Dalam implementasinya sebuah Array digunakan untuk menyimpan data yang memiliki banyak value.
@@ -74,3 +76,12 @@ Atau, dengan fungsi Arrays.toString seperti berikut :
 ```java
 System.out.println(Arrays.toString(data)); 
 ```
+
+# Tugas
+1. Buatlah Function dengan Return array (String[]) nama - nama hari.
+2. Buatlah Function dengan Return array (String[]) nama - nama bulan.
+3. Buatlah Function dengan Return array (int[]) bilangan Fibonachi untuk jumlah data sebanyak n. (contoh, contoh : 5, output : 1,2,)
+3. Buatlah Function dengan Return array (int[]) bilangan Fibonachi untuk jumlah data sebanyak n dan terbalik, (contoh : input = 5 => 1, 2, 3, 2, 1).
+4. Buatlah Function dengan Return array (int[]) bilangan Tribonachi untuk jumlah data sebanyak n.
+5. Buatlah Function dengan Return array (int[]) bilangan Triangular untuk jumlah data sebanyak n.
+6. Buatlah Function dengan Return array (int[]) bilangan 

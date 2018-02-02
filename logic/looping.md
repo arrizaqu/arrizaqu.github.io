@@ -80,3 +80,4 @@ output:
 3. output : 1, 1, 2, 3, 5 (sebanyak 9 kali loop) (fibonachi)
 4. output : 1, 1, 1, 3, 5, 9 (sebanyak 9 kali loop) (3bonachi)  
 
+

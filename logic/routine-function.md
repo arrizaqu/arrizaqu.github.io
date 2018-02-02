@@ -1,3 +1,5 @@
+% Masyda Arrizaqu
+
 # Routine and Function
 * Subroutine
 * Function 
@@ -22,7 +24,7 @@ public int getPenjumlahan(int a, int b){
 ```
 
 ## Argument vs Parameter
-Mungkin saja sama, namun perbedaan dari keduanya dapat secara singkat saja dipahami, adalah : 
+Mungkin saja sama, namun perbedaan secara singkat dapat dipahami: 
 1. Argument : Nilai yang dikirimkan ketika memanggil sebuah procedure atau function
 2. Parameter : variable yang di definisikan didalam function untuk menerima argument.
 
