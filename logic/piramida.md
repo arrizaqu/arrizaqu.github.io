@@ -99,4 +99,4 @@ public class Template {
 }
 ```
 
-> by Masyda Arrizaqu 
+> written by : Masyda Arrizaqu

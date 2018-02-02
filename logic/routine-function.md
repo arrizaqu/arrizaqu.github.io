@@ -38,3 +38,5 @@ Mungkin saja sama, namun perbedaan secara singkat dapat dipahami:
 ## Reference 
 https://stackoverflow.com/questions/6885937/whats-the-technical-definition-for-routine
 https://stackoverflow.com/questions/24780935/difference-between-subroutine-co-routine-function-and-thread
+
+> written by : Masyda Arrizaqu

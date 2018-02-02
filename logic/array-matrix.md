@@ -102,3 +102,5 @@ System.out.println(Arrays.toString(data));
 8. Buatlah Function dengan Return array (int[]) bilangan Tribonachi untuk jumlah data sebanyak n dan angka terbalik. (ex: n = 7, result : [1,1,1,3,1,1,1])
 9. Buatlah Function dengan Return array (int[]) bilangan Triangular untuk jumlah data sebanyak n. (ex: n = 5, result : [1,3,6,10,15])
 10. Buatlah Function dengan Return array (int[]) bilangan Triangular untuk jumlah data sebanyak n dan angka terbalik (ex: n = 5, result : [1,3,6,3,1])
+
+> written by : Masyda Arrizaqu
