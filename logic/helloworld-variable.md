@@ -47,4 +47,4 @@ seperti yang sudah dicontohkan pada class EMPLOYEE diatas.
 	String address = "seputih banyak";
 ```
 
- 
+> written by : Masyda Arrizaqu
