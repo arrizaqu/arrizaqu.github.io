@@ -1,6 +1,10 @@
 # Routine and Function
+* Subroutine
+* Function 
+* Argument vs Parameter
+
 ## Subroutine 
-Dalam konsep dunia komputerisasi dan pemrograman, Subroutine juga dikenal dengan istilah Procedure, function, routine, method dan subprogram
+Dalam konsep dunia komputer dan pemrograman, Subroutine juga dikenal dengan istilah Procedure, function, routine, method dan subprogram
 ```java
 private String name=null;
 public void setName(String myname){
@@ -16,13 +20,20 @@ public int getPenjumlahan(int a, int b){
 	return a + b;
 }
 ```
-  
-## Tugas Function
-### Buatlah function dengan nilai masukkan 9 : maka berturut - mengeluarkan : 
-1. output : 1, 2, 3.. (sebanyak 9 kali loop)
-2. output : 0, 2, 4.. (sebanyak 9 kali loop)
-3. output : 1, 1, 2, 3, 5 (sebanyak 9 kali loop) (fibonachi)
-4. output : 1, 1, 1, 3, 5, 9 (sebanyak 9 kali loop) (3bonachi)  
+
+## Argument vs Parameter
+Mungkin saja sama, namun perbedaan dari keduanya dapat secara singkat saja dipahami, adalah : 
+1. Argument : Nilai yang dikirimkan ketika memanggil sebuah procedure atau function
+2. Parameter : variable yang di definisikan didalam function untuk menerima argument.
+
+## Tugas 
+1. Buatlah setter dan getter pada EMPLOYEE object.
+2. Buatlah penjumlahan, pembagian, perkalian untuk 3 parameter.
+3. Buatlah function untuk mengetahui hasil dari bilangan pangkat 2 dari n.
+4. Buatlah function untuk menghitung lebar segitiga dengan n inputan.
+5. Buatlah function untuk menghitung tinggi segitia dengan n inputan.
+6. Buatlah function untuk menghasilkan huruf (A - Z) disuaikan dengan posisi berdasarkan angka. ex : input 1 => A, input 3 => C
+
 
 ## Reference 
 https://stackoverflow.com/questions/6885937/whats-the-technical-definition-for-routine

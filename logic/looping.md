@@ -73,3 +73,10 @@ output:
 * * * * *
 ```
  
+## Tugas 
+### Buatlah function dengan nilai masukkan 9 : maka berturut - mengeluarkan : 
+1. output : 1, 2, 3.. (sebanyak 9 kali loop)
+2. output : 0, 2, 4.. (sebanyak 9 kali loop)
+3. output : 1, 1, 2, 3, 5 (sebanyak 9 kali loop) (fibonachi)
+4. output : 1, 1, 1, 3, 5, 9 (sebanyak 9 kali loop) (3bonachi)  
+
