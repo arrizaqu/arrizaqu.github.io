@@ -1,6 +1,6 @@
 # Index Content
 ## 	Logic Bintang
-1. [Subroutin and Function](https://arrizaqu.github.io/logic/helloworld-variable)
+1. [Hello world](https://arrizaqu.github.io/logic/helloworld-variable)
 2. [Subroutin and Function](https://arrizaqu.github.io/logic/routine-function)
 3. [looping](https://arrizaqu.github.io/logic/looping)    
 4. [Array dan Matrix](https://arrizaqu.github.io/logic/array-matrix)
