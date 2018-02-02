@@ -29,6 +29,20 @@ String[] data = {
 }; 
 ```
 
+### example 
+```java
+public void example(){
+	String[] data = new String[]{
+		"jakarta barat", "jakarta pusat", "jakarta timur", "jakarta barat"
+	};
+	
+	//untuk menampilkan data yang ada pada array
+	for(int i = 0; i < data.length; i++){
+		System.out.println("kota : "+ data[i]);
+	}
+}	
+```
+
 ## Array Multidimensi
 Yaitu jika sebuah data Array memiliki value Array, secara singkat bisa dicontohkan sebagai berikut : 
 
