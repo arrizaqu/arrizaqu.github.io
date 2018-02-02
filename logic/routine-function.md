@@ -1,5 +1,3 @@
-% Masyda Arrizaqu
-
 # Routine and Function
 * Subroutine
 * Function 
